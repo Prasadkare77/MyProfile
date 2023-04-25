@@ -2,6 +2,50 @@
 <html>
     <head>
         <title>Contact Us</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <style>
+            *{
+                font-family: 'Roboto', sans-serif;
+            }
+            form{
+                align-items: center;
+            }
+            h4{
+                color: cadetblue;
+            }
+            input{
+                width: 300px;
+                border: 1px solid black;
+                border-radius: 10px;
+                text-transform: capitalize;
+                color: cadetblue;
+                padding: 3px;
+            }
+            input[type="email"]{
+                text-transform: lowercase;
+            }
+            textarea{
+                border: 1px solid black;
+                border-radius: 10px;
+            }
+            button{
+                border: 1px solid black;
+                border-radius: 25px;
+                padding: 10px;
+                
+            }
+            button:hover{
+                background-color: black;
+                color: white;
+            }
+            button:hover[type="reset"]{
+                background-color: red;
+                color: white;
+            }
+    
+        </style>
     </head>
     <body>
         <h4>Contact Us</h4>
@@ -25,7 +69,7 @@
                         <td><textarea rows="10" cols="50"></textarea></td>
                     </tr>
                     <tr>
-                        <td><button>Submit</button></td>
+                        <td><button type="submit">Submit</button></td>
                         <td><button type="reset">Clear</td>
                     </tr>
                 </tbody>
